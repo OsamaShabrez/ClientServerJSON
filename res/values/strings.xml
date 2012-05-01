@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="build">JSON Build:</string>
+    <string name="recvd">JSON Received:</string>
+    <string name="app_name">Client Server Communication via JSON</string>
+
+</resources>

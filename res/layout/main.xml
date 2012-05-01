@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textViewbuild"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/build"
+        android:layout_marginBottom="10dip"
+    />    <EditText
+        android:id="@+id/editTextbuild"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:layout_marginBottom="30dip" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/textViewrecvd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/recvd"
+        android:layout_marginBottom="10dip"
+	/>
+    <EditText
+        android:id="@+id/editTextrecvd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine" />
+
+</LinearLayout>
